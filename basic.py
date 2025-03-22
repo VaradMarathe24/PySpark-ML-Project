@@ -1,7 +1,13 @@
-i="I love my country, India."
-print(i)
-for (n=0;n<5;n++):
-  print("Bharat Mata Ki Jai")
+# Basic Python Program
 
-print("Code written by Varad Marathe.")
+# Taking input from the user
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+# Calculating the year when the user will turn 100
+current_year = 2025
+year_turn_100 = current_year + (100 - age)
+
+# Printing the result
+print(f"Hello, {name}! You will turn 100 years old in the year {year_turn_100}.")
 
